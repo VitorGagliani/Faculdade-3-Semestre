@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+//
  void executarOpcao(char *opcao){
   
   if(strcmp(opcao, "iniciar")==0){
