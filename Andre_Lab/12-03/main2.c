@@ -3,9 +3,9 @@
 int main(){
 
   FILE *arquivo;
-  char linha[100];
+  char linha[200];
 
-  arquivo = fopen("exemplo.txt", "r");
+  arquivo = fopen("telefones_idades_emails.txt", "r");
 
   if (arquivo == NULL){
     printf("Erro ao abrir o arquivo");

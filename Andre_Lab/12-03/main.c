@@ -1,8 +1,9 @@
 #include <stdio.h>
 
+
 int main(){
   FILE *arquivo;
-  arquivo = fopen("exemplo.txt", "w");
+  arquivo = fopen("telefones_idades_emails.txt", "w");
 
   if (arquivo == NULL){
     printf("Erro ao abrir o arquivo");
